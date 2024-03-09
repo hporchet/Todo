@@ -14,7 +14,7 @@ export const ErrorPage = () => {
                 <ExclamationTriangleIcon />
                 <AlertTitle><i>{isRouteErrorResponse(error) && `${error.status} ${error.statusText}`}</i></AlertTitle>
                 <AlertDescription>
-                    Erreur
+                    An error has been encountered sorry.
                 </AlertDescription>
             </Alert>
         </>
